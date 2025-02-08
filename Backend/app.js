@@ -25,6 +25,7 @@ app.get("/", (req, res) => {
     message: "API is running",
    });
 });
+
 app.use("/api/v1/message", messageRouter);
 
 dbConnection();
